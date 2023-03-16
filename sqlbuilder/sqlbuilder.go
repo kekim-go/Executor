@@ -2,13 +2,14 @@ package sqlbuilder
 
 import (
 	"fmt"
-	"queryprocessor/models"
-	"queryprocessor/utils"
 	"regexp"
 	"strconv"
 	"strings"
 
-	grpc_executor "queryprocessor/infuser-protobuf/gen/proto/executor"
+	"github.com/kekim-go/Executor/models"
+	"github.com/kekim-go/Executor/utils"
+
+	grpc_executor "github.com/kekim-go/Protobuf/gen/proto/executor"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"

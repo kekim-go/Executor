@@ -2,10 +2,11 @@ package server
 
 import (
 	"context"
-	handler "queryprocessor/handler"
-	grpc_executor "queryprocessor/infuser-protobuf/gen/proto/executor"
-	"queryprocessor/sqlbuilder"
-	"queryprocessor/sqlexecutor"
+
+	handler "github.com/kekim-go/Executor/handler"
+	"github.com/kekim-go/Executor/sqlbuilder"
+	"github.com/kekim-go/Executor/sqlexecutor"
+	grpc_executor "github.com/kekim-go/Protobuf/gen/proto/executor"
 )
 
 type apiResultServer struct {

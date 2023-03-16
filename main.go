@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	ctx "queryprocessor/ctx"
-	server "queryprocessor/grpc"
+	ctx "github.com/kekim-go/Executor/ctx"
+	server "github.com/kekim-go/Executor/grpc"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"

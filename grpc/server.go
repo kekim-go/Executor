@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 
-	ctx "queryprocessor/ctx"
-	"queryprocessor/handler"
-	grpc_executor "queryprocessor/infuser-protobuf/gen/proto/executor"
+	ctx "github.com/kekim-go/Executor/ctx"
+	"github.com/kekim-go/Executor/handler"
+	grpc_executor "github.com/kekim-go/Protobuf/gen/proto/executor"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_recovery "github.com/grpc-ecosystem/go-grpc-middleware/recovery"

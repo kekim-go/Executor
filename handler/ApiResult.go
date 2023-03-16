@@ -1,6 +1,6 @@
 package handler
 
-import ctx "queryprocessor/ctx"
+import ctx "github.com/kekim-go/Executor/ctx"
 
 // ApiResultHandler : ApiResult 핸들러
 type ApiResultHandler struct {

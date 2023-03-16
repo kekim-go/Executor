@@ -3,10 +3,11 @@ package sqlexecutor
 import (
 	"database/sql"
 	"encoding/json"
-	"queryprocessor/models"
 	"regexp"
 	"strconv"
 	"time"
+
+	"github.com/kekim-go/Executor/models"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
